@@ -1,0 +1,43 @@
+{
+  "name": "harris-benedict-bmr",
+  "version": "1.0.0",
+  "description": "Function for calculating basal metabolic rate the Harris-Benedict way.",
+  "main": "dist/calculate-harris-benedict-bmr.js",
+  "scripts": {
+    "test": "jest",
+    "pretty": "prettier --single-quote --write \"{src,test}/*.js\"",
+    "compile": "npm run pretty && ./node_modules/.bin/babel src --out-dir dist",
+    "prepublish": "npm run compile",
+    "preview-package": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justicegray/harris-benedict-bmr.git"
+  },
+  "keywords": [
+    "bmr",
+    "harris-benedict",
+    "mifflin-stjeor",
+    "nutrition"
+  ],
+  "author": "Justice Gray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justicegray/harris-benedict-bmr/issues"
+  },
+  "homepage": "https://github.com/justicegray/harris-benedict-bmr#readme",
+  "dependencies": {
+    "is-number": "^7.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.3",
+    "regenerator-runtime": "^0.13.1"
+  },
+  "files": [
+    "/dist"
+  ]
+}
