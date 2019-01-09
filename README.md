@@ -18,7 +18,7 @@ yarn add harris-benedict-bmr
 
 Import:
 ```
-import calculateHarrisBenedictBmr from 'calculate-harris-benedict-bmr';
+import calculateHarrisBenedictBmr from 'harris-benedict-bmr';
 ```
 
 The function signature itself is as follows:

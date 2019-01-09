@@ -1,6 +1,6 @@
 {
   "name": "harris-benedict-bmr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Function for calculating basal metabolic rate the Harris-Benedict way.",
   "main": "dist/calculate-harris-benedict-bmr.js",
   "scripts": {
